@@ -1,7 +1,7 @@
 Laboratorio de Comunicaciones
 ## Universidad Industrial de Santander
 
-# Práctica 5. Modulaciones Digitales Y De Pulsos
+# Práctica 5. Modulaciones lineales
 
 ### Integrantes
 - **Duban Andretti Gutierrez Leon** - 2220396
