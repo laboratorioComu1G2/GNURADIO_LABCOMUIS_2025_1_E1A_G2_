@@ -1,6 +1,16 @@
-# Laboratorio #3 comunicaciones
+Laboratorio de Comunicaciones
+## Universidad Industrial de Santander
 
-## Laboratorio comunicaciones  
+# Práctica 5. Modulaciones Digitales Y De Pulsos
+
+### Integrantes
+- **Duban Andretti Gutierrez Leon** - 2220396
+- **Juan José De la Rosa Medina** - 2202810
+
+Escuela de Ingenierías Eléctrica, Electrónica y de Telecomunicaciones  
+Universidad Industrial de Santander
+
+  
 ### 1. Primera fase:  
 
 ---
