@@ -18,11 +18,13 @@
 ### 1. Caso 1: KaAc = 1: (Modulación)
 
 **Fig. 1. Simulación caso 1.**  
-![Simulación caso 1]
-<img src="(https://github.com/user-attachments/assets/0e096a7b-9c35-4018-b1ac-792336918277)"
+
+<img src="https://github.com/user-attachments/assets/9404d6da-4569-45bb-973c-0609cf7895bd" title="Simulación" alt="Texto alternativo" width="600" height="400"/>
 
 **Fig. 2. Espectro visto en el analizador de espectros.**  
-![Espectro caso 1](###)
+
+<img src="https://github.com/user-attachments/assets/3499f2de-b518-495e-9124-78e02c170d5d" title="Simulación" alt="Texto alternativo" width="600" height="400"/>
+
 
 En esta configuración se observa una modulación balanceada, donde la potencia de la portadora (55.67 nW) es comparable a la suma de las bandas laterales (16.12 + 16.12 = 32.24 nW). El índice de modulación de 0.846 indica una modulación cercana a la ideal (AM estándar). En el dominio de la frecuencia se distinguen claramente las tres componentes (portadora y dos bandas laterales) y en el dominio del tiempo se visualiza una señal modulada simétrica. La relación señal a ruido es alta (60.3 dB), lo que evidencia buena calidad de transmisión sin distorsión significativa.
 
@@ -39,10 +41,14 @@ En esta configuración se observa una modulación balanceada, donde la potencia 
 - La relación señal a ruido disminuye a 55.4 dB, sugiriendo que, aunque hay mucha energía en las bandas laterales, no se traduce en una señal eficiente ni limpia.
 
 **Fig. 3. Simulación caso 2.**  
-![Simulación caso 2](###)
+
+<img src="https://github.com/user-attachments/assets/ea35819e-b3f6-4261-890d-0500d7ef510a" title="Simulación" alt="Texto alternativo" width="600" height="400"/>
+
 
 **Fig. 4. Espectro visto en el analizador de espectros.**  
-![Espectro caso 2](###)
+
+<img src="https://github.com/user-attachments/assets/e5b2d9ff-ce8d-4f68-a0e5-90b65d6bb11f" title="Simulación" alt="Texto alternativo" width="600" height="400"/>
+
 
 ---
 
@@ -53,10 +59,12 @@ En esta configuración se observa una modulación balanceada, donde la potencia 
 - Aunque el SNR se mantiene relativamente alto (58.8 dB), la calidad de la señal se ve afectada por la distorsión, y puede no representar fielmente el mensaje original.
 
 **Fig. 5. Simulación caso 3.**  
-![Simulación caso 3](###)
+<img src="https://github.com/user-attachments/assets/dd8ba434-acc2-48d0-8af4-99a17508e8c3" title="Simulación" alt="Texto alternativo" width="600" height="400"/>
+
 
 **Fig. 6. Espectro visto en el analizador de espectros.**  
-![Espectro caso 3](###)
+<img src="https://github.com/user-attachments/assets/fc6cc915-9f4e-4a8d-a94b-114d832b5080" title="Simulación" alt="Texto alternativo" width="600" height="400"/>
+
 
 ---
 
@@ -84,10 +92,10 @@ En esta fase se buscó analizar los tipos de modulación de una señal variando 
 Para obtener el valor de la condición dada donde se genera una modulación al 100%, se estableció un valor de ka =1 y ma=1, con esto se logra ver en la simulación del flujograma y en el osciloscopio como la señal queda envuelta en su totalidad por la señal moduladora.
 
 **Figura 1. Simulación de la señal modulada al 100%.**  
-![Simulación 100%](###)
+<img src="https://github.com/user-attachments/assets/3d63dacb-b67f-4857-9442-4075ccf56663" title="Simulación" alt="Texto alternativo" width="600" height="400"/>
 
 **Figura 2. Señal modulada al 100% obtenida en el osciloscopio.**  
-![Osciloscopio 100%](###)
+<img src="https://github.com/user-attachments/assets/29ca098a-7459-48a9-a3ef-525937f185d2" title="Simulación" alt="Texto alternativo" width="600" height="400"/>
 
 De los datos obtenidos en el osciloscopio y en la tabla se aproxima a una modulación del 100% (m = 1). Sin embargo, el índice de modulación expresado en dB nos dice que no se logra alcanzar dicho valor de manera adecuada. Una modulación del 100% debería poseer un valor de 0 dB, pero para este caso de estudio no ocurre esto.
 
@@ -98,10 +106,10 @@ De los datos obtenidos en el osciloscopio y en la tabla se aproxima a una modula
 Para obtener el valor de la condición dada donde se genera una sobre-modulación, se estableció un valor de ka =2 y ma=2, con esto se logra ver en la simulación del flujograma y en el osciloscopio como la señal queda distorsionada en sus picos.
 
 **Figura 3. Simulación de una señal sobre-modulada.**  
-![Simulación sobremodulada](###)
+<img src="https://github.com/user-attachments/assets/b6405bdd-4842-42e8-8593-4a9f285d8621" title="Simulación" alt="Texto alternativo" width="600" height="400"/>
 
 **Figura 4. Señal sobre-modulada obtenida en el osciloscopio.**  
-![Osciloscopio sobremodulada](###)
+<img src="https://github.com/user-attachments/assets/c36073dd-f607-40df-97e1-413c3d6074e9" title="Simulación" alt="Texto alternativo" width="600" height="400"/>
 
 Para el caso de la sobre-modulación, índice de modulación es mayor al de una modulación al 100%, debido a que esté es mayor que 1, lo cual se refleja en un valor positivo obtenido en la tabla en dB. Se observa como en el osciloscopio la señal pierde información, la envolvente se deforma y se genera una saturación en ambos picos.
 
@@ -112,10 +120,10 @@ Para el caso de la sobre-modulación, índice de modulación es mayor al de una 
 Para obtener el valor de la condición dada donde se genera una modulación, se estableció un valor de ka =0.5 y ma=0.5, con esto se logra ver en la simulación del flujograma y en el osciloscopio como la señal se reduce y comprime a lo largo del tiempo.
 
 **Figura 5. Simulación para una señal modulada.**  
-![Simulación modulada](###)
+<img src="https://github.com/user-attachments/assets/26ca9941-421e-4f2d-9b4a-d486f00118bc" title="Simulación" alt="Texto alternativo" width="600" height="400"/>
 
 **Figura 6. Señal modulada obtenida en el osciloscopio.**  
-![Osciloscopio modulada](###)
+<img src="https://github.com/user-attachments/assets/7703b693-22f9-4753-8311-361aa99a6bda" title="Simulación" alt="Texto alternativo" width="600" height="400"/>
 
 En este caso se generó una modulación con un índice menor a 1, el valor en dB indica un m aproximado de 0.4. En este tipo de modulaciones predomina la señal portadora y la envolvente casi no la modula, así como se puede observar en el osciloscopio. Para este tipo de modulaciones se desperdicia mucha potencia en la portadora y se transmite muy poca información.
 
@@ -146,7 +154,7 @@ centrada para producir una modulación AM con índice 0.75. No hubo pérdida de
 información, y la señal modulada mantuvo su forma bien definida. El uso de una 
 portadora de 100 MHz asegura que la modulación está en una banda alta.
 
-![Figura: Señal caso 1](###) 
+<img src="https://github.com/user-attachments/assets/65f0fdb8-875d-4c40-806a-b288c45c638e" title="Simulación" alt="Texto alternativo" width="600" height="400"/>
 
 
 De la grafica inferior (Dominio de la frecuencia) se pudo observar que este espectro 
@@ -155,7 +163,7 @@ de lóbulos simétricos indicó una señal de doble banda lateral (DSB-AM), y la
 proporción entre los lóbulos y la portadora confirma que la información del mensaje 
 está correctamente distribuida en frecuencia. 
 
-![Figura: Señal caso 2](###) 
+<img src="https://github.com/user-attachments/assets/018d23d6-9784-45bf-a145-2d93203f05ff" title="Simulación" alt="Texto alternativo" width="600" height="400"/>
 
 Este comportamiento indicó una modulación AM correctamente implementada, sin 
 saturación ni pérdida de información. La ganancia TX de 10 dB es adecuada para 
@@ -180,7 +188,7 @@ Parámetros asignados:
 ● Ganancia TX: 15 dB  
 ● Muestras por símbolo: 5  
 
-![Figura: Señal caso 3](###) 
+<img src="https://github.com/user-attachments/assets/43f1ecd5-6f52-43ea-a61b-bf8f9c679a9a" title="Simulación" alt="Texto alternativo" width="600" height="400"/>
 
 En esta imagen se observó una señal modulada en amplitud cuya envolvente 
 variaba significativamente, lo cual coincidió con un coeficiente de modulación de ka 
@@ -193,7 +201,7 @@ profunda. En el dominio de frecuencia, se identificó una portadora clara centra
 250 MHz y bandas laterales bien definidas, características de una modulación en 
 doble banda lateral. 
 
-![Figura: Señal caso 4](###) 
+<img src="https://github.com/user-attachments/assets/65e91ebe-20a9-4276-81c0-76fd97d9a7bb" title="Simulación" alt="Texto alternativo" width="600" height="400"/>
 
 Se confirmó visualmente el comportamiento esperado de la señal modulada. Se 
 identificaron zonas donde la envolvente se acercaba al eje horizontal, indicando los 
@@ -215,7 +223,7 @@ Parámetros asignados:
 ● Ganancia TX: 20 dB  
 ● Muestras por símbolo: 20  
 
-![Figura: Señal caso 5](###) 
+<img src="https://github.com/user-attachments/assets/69e04ef1-7f1c-4a8e-aaed-9293edcb4753" title="Simulación" alt="Texto alternativo" width="600" height="400"/>
 
 Se utilizó un coeficiente de modulación ka de 1.5, una frecuencia portadora de 150 
 MHz, una ganancia de transmisión de 20.0, y se definieron 20 muestras por 
@@ -227,7 +235,7 @@ componentes, con lóbulos laterales claramente visibles debido a la alta cantida
 muestras por símbolo y el mayor valor de ka, lo que generó un mayor contenido 
 armónico alrededor de la portadora.
 
-![Figura: Señal caso 6](###) 
+<img src="https://github.com/user-attachments/assets/161aaae0-6f5c-4b04-9bab-dba1b50b4b68" title="Simulación" alt="Texto alternativo" width="600" height="400"/>
 
 En el osciloscopio se midió una señal con una amplitud máxima de 
 aproximadamente 357.72 mV y mínima de -622 mV, lo que resultó en un valor pico a 
@@ -239,7 +247,7 @@ su visualización y análisis. Además, los datos del osciloscopio reflejaron un
 modulación más profunda y simétrica, indicando un uso más eficiente del rango 
 dinámico del canal de transmisión  
 
-![Figura: Señal caso 7](###) 
+<img src="https://github.com/user-attachments/assets/df1ac80a-1de7-424c-8b02-2bd3d5ba1509" title="Simulación" alt="Texto alternativo" width="600" height="400"/>
 
 Se observó un pico principal en 0 dBm, correspondiente a la frecuencia portadora, y 
 lóbulos laterales que decrecieron hasta aproximadamente -80 dBm, lo que indicó 
@@ -247,7 +255,7 @@ una modulación en amplitud leve debido al bajo coeficiente de modulación ka y 
 amplitud portadora pequeña. Esto confirmó que la señal transmitida tenía un 
 contenido espectral concentrado y una modulación poco profunda.  
 
-![Figura: Señal caso 8](###) 
+<img src="https://github.com/user-attachments/assets/e0a84713-471a-47f9-8863-55085506667e" title="Simulación" alt="Texto alternativo" width="600" height="400"/>
 
 El pico principal de la señal alcanzó los 0 dBm, y se evidenció un espectro más 
 amplio y con lóbulos laterales más marcados que en el caso anterior. Esto se debió 
@@ -262,7 +270,7 @@ distribuyeron con simetría y se atenuaron progresivamente hasta valores cercano
 mayor contenido espectral, lo que indicó una mayor eficiencia en la transmisión de 
 información, aunque también con mayor posibilidad de interferencia.  
 
-![Figura: Señal caso 9](###) 
+<img src="https://github.com/user-attachments/assets/df50769e-f057-4b14-8b4f-73c99dd5c129" title="Simulación" alt="Texto alternativo" width="600" height="400"/>
 
 La imagen del analizador de espectro mostró una señal centrada en los 150 MHz 
 con un span de 2 MHz. El pico de la señal se mantuvo en 0 dBm, pero a diferencia 
@@ -292,13 +300,13 @@ En esta fase se busca analizar el comportamiento de una señal portadora ante di
 ### Caso 1: Genere una Señal modulada en 60 %; Frecuencia de portadora 200 MHz, Ganancia de TX = 20 dB.
 
 **Figura 1. Simulación para el caso 1.**  
-![Simulación 60%](###)
+<img src="https://github.com/user-attachments/assets/470abe53-bbc5-47f3-8f99-0b97a937fdc1" title="Simulación" alt="Texto alternativo" width="600" height="400"/>
 
 **Figura 2. Señal obtenida en el osciloscopio para el caso 1.**  
-![Osciloscopio 60%](###)
+<img src="https://github.com/user-attachments/assets/d9299e32-8e3d-4c5d-8c7f-7045a0867b86" title="Simulación" alt="Texto alternativo" width="600" height="400"/>
 
 **Figura 3. Señal obtenida en el analizador de espectros para el caso 1.**  
-![Espectro 60%](###)
+<img src="https://github.com/user-attachments/assets/4ae1395a-5a30-4dc5-85a8-9467af5e2c6b" title="Simulación" alt="Texto alternativo" width="600" height="400"/>
 
 ---
 
@@ -313,13 +321,13 @@ Este caso muestra una transmisión eficiente y estable sin distorsión. La modul
 ### Caso 2: Genere una Señal modulada en 100 %; Frecuencia de portadora 250 MHz, Ganancia de TX = 25 dB.
 
 **Figura 1. Simulación para el caso 2.**  
-![Simulación 100%](###)
+<img src="https://github.com/user-attachments/assets/13b55ce8-d0b3-4b56-8b0c-87fc257b3a20" title="Simulación" alt="Texto alternativo" width="600" height="400"/>
 
 **Figura 2. Señal obtenida en el osciloscopio para el caso 2.**  
-![Osciloscopio 100%](###)
+<img src="https://github.com/user-attachments/assets/c6eda459-21f4-4718-b6fd-55dc9f724e5d" title="Simulación" alt="Texto alternativo" width="600" height="400"/>
 
 **Figura 3. Señal obtenida en el analizador de espectros para el caso 2.**  
-![Espectro 100%](###)
+<img src="https://github.com/user-attachments/assets/2489d231-e92a-4775-95c6-1fc956afb0d9" title="Simulación" alt="Texto alternativo" width="600" height="400"/>
 
 ---
 
@@ -334,13 +342,13 @@ Este es el mejor escenario en términos de eficiencia y fidelidad. Se aprovecha 
 ### Caso 3: Genere una Señal modulada en 120 %; Frecuencia de portadora 150 MHz, Ganancia de TX = 30 dB.
 
 **Figura 1. Simulación para el caso 3.**  
-![Simulación 120%](###)
+<img src="https://github.com/user-attachments/assets/2eff5a35-ce56-4131-8621-578f015e6f2a" title="Simulación" alt="Texto alternativo" width="600" height="400"/>
 
 **Figura 2. Señal obtenida en el osciloscopio para el caso 3.**  
-![Osciloscopio 120%](###)
+<img src="https://github.com/user-attachments/assets/b2c330bb-dbc6-408c-8718-170dfb556436" title="Simulación" alt="Texto alternativo" width="600" height="400"/>
 
 **Figura 3. Señal obtenida en el analizador de espectros para el caso 3.**  
-![Espectro 120%](###)
+<img src="https://github.com/user-attachments/assets/2c36f4bd-b176-43cf-a9d1-ac9c1c24383e" title="Simulación" alt="Texto alternativo" width="600" height="400"/>
 
 ---
 
