@@ -12,10 +12,14 @@ En esta práctica, observamos cómo los modelos de canal afectan la calidad de l
 
 ---
 # Práctica 3 
-En esta práctica
+En esta práctica se analizaron señales moduladas en amplitud variando el índice de modulación para observar submodulación, modulación al 100% y sobremodulación, usando osciloscopio y analizador espectral para evaluar la forma de la señal, potencia y relación señal-ruido, confirmando cómo la distorsión afecta la calidad y eficiencia de la transmisión.
+
+---
 
 
 # Práctica 4 
 En esta práctica realizamos modulaciones angulares de banda estrecha y banda ancha. Observamos las señales moduladas en el dominio del tiempo usando el osciloscopio y en frecuencia con el analizador de espectro. Calculamos la potencia de la envolvente compleja y estimamos el ancho de banda. Para 𝑘𝑝𝐴𝑚>10, comparamos los coeficientes de Bessel teóricos con los valores experimentales obtenidos a 100 MHz, utilizando las potencias medidas de los armónicos. Documentamos todo el procedimiento con gráficas y resultados en un informe PDF.
 
+---
 # Práctica 5
+En esta práctica se analizó un modelo de canal para la transmisión de distintos tipos de señales, además de ver las afectaciones presentadas por la atenuación y el ruido, en un inicio se analizaron las señales mediante un flujograma, para posteriormente comparar los resultados obtenidos con el analizador de espectros, se estudiaron los efectos del ruido y la atenuación, todo esto bajo diferentes condiciones y para diferentes tipos de señales.
